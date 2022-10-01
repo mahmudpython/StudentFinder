@@ -1,7 +1,7 @@
 class MessageText:
 
     def first_message(self):
-        text =  "Hi, " \
+        text = "Hi, " \
           "Sushen Biswas teaching programming for more than 4 years." \
           " In our understanding basic programming come from basic math." \
           "Actually its come from kindergarten math. We all know x , y math." \
