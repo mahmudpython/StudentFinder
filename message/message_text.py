@@ -2,14 +2,14 @@ class MessageText:
 
     def first_message(self):
         text =  "Hi, " \
-          "I am teaching programming for more than 4 years." \
-          " In my understanding basic programming come from basic math." \
+          "Sushen Biswas teaching programming for more than 4 years." \
+          " In our understanding basic programming come from basic math." \
           "Actually its come from kindergarten math. We all know x , y math." \
           "In Bangla We called 'চলক' , In programming we called it variable." \
           "You see 6 class math. We are going to learn like that. to know more" \
-          "about me I give yoy my github profile. Its give you a perception about " \
-          "my creditability.'https://github.com/sushen'. If you think I can help you to learn" \
-          "I will be glad to spend time with you."
+          "about Sushen Biswas I give yoy my github profile. Its give you a perception about " \
+          "Sushen Biswas creditability.'https://github.com/sushen'. If you think we can help you to learn" \
+          "We will be glad to spend time with you."
         # print(text)
         return text
 
@@ -26,6 +26,11 @@ class MessageText:
     def forth_message(self):
         text = "Math is equal important like programming language' https://github.com/sushen/mathandmoremath this " \
                "github repository help you to learn math and programming both. "
+        return text
+
+    def fifth_message(self):
+        text = "This group help you to connect other python learner. https://www.facebook.com/groups/lptgp don't feel " \
+               "same to ask anything publicly "
         return text
 
     def ai_text(self, input=None):

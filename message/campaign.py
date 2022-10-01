@@ -93,6 +93,9 @@ def visit_link_list(driver, link_list):
         elif sell_value[1] == '4':
             send_message(i, 4)
 
+        elif sell_value[1] == '5':
+            send_message(i, 5)
+
         else:
             print("Extend message_text.py file for more message")
 
