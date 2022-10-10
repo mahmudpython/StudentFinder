@@ -1,3 +1,6 @@
+"""
+find your google sheet here : https://docs.google.com/spreadsheets/u/0/
+"""
 import time
 
 from driver.driver import Driver
@@ -27,6 +30,8 @@ def visit_link_list(driver, link_list):
 
         SearchKeyword().scrollAndSearchUsingXpath(driver)
         SearchKeyword().searchWordUsingXpath(driver)
+
+        print(input("Visit next group :"))
 
     print(f"\nWe visit {len(link_list)} link")
     return len(link_list)

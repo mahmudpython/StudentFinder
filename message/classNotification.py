@@ -33,7 +33,8 @@ def send_message():
     driver.find_element(By.XPATH, "//span[contains(text(),'Message')]").click()
     driver.implicitly_wait(10)
     time.sleep(2)
-    driver.find_element(By.XPATH, "//p[@class='m8h3af8h kjdc1dyq']").send_keys(message)
+    driver.find_element(By.XPATH, "//p[@class='xdj266r xat24cr']").send_keys(message)
+    # print(input("Stop :"))
     driver.find_element(By.XPATH, "//div[@aria-label='Press enter to send']//*[name()='svg']").click()
     time.sleep(4)
 
