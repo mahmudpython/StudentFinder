@@ -23,7 +23,7 @@ massage_list = ["Are you using broadband internet ?",
 # print(message)
 
 # print(input("Testing Message :"))
-group_link = "https://www.facebook.com/groups/341334433330410/"
+group_link = "https://www.facebook.com/groups/341334433330410/permalink/1266678044129373/"
 
 driver = Driver().driver
 action = ActionChains(driver)
@@ -83,6 +83,4 @@ for comment in main_comments:
     print("......................")
 
 print(input("Comment Done :"))
-time.sleep(60)
 
-driver.implicitly_wait(10)
