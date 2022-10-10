@@ -23,7 +23,7 @@ massage_list = ["Are you using broadband internet ?",
 # print(message)
 
 # print(input("Testing Message :"))
-
+group_link = "https://www.facebook.com/groups/341334433330410/"
 
 driver = Driver().driver
 action = ActionChains(driver)
@@ -32,7 +32,7 @@ driver.get("https://facebook.com")
 
 Login().login(driver)
 
-driver.get("https://www.facebook.com/groups/ProgrammingForBeginners/permalink/1220644232066258/")
+driver.get(group_link)
 
 driver.implicitly_wait(10)
 top_comments = driver.find_element(By.XPATH, "//span[contains(.,'Top comments')]")
