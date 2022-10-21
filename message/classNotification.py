@@ -9,6 +9,9 @@ from login.login import Login
 
 message = "Today\'s Class start at 10 am. Join \'https://meet.google.com/amj-emzj-siy\' Come early if you need more " \
           "help. "
+
+# message = "I am available now you guides can join now. https://meet.google.com/amj-emzj-siy"
+
 print(message)
 
 

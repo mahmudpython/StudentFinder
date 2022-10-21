@@ -14,7 +14,10 @@ driver.get("https://facebook.com")
 
 Login().login(driver)
 
-work_sheet = Connection().connect_worksheet("PythonFacebookGroupList")
+# work_sheet = Connection().connect_worksheet("PythonFacebookGroupList")
+# Naro List
+work_sheet = Connection().connect_worksheet("NaroList")
+
 group_list = work_sheet.col_values(1)
 print(group_list)
 
