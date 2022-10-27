@@ -154,7 +154,7 @@ class SearchKeyword:
                         print(str(comment_number) + " 'Comments' post Found")
                         print(input("We found a popular post : "))
                     else:
-                        print("No 'Comments' Word Found")
+                        print("We didn't find any Popular post Found")
 
 
 
