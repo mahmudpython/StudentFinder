@@ -14,9 +14,9 @@ driver.get("https://facebook.com")
 
 Login().login(driver)
 
-# work_sheet = Connection().connect_worksheet("PythonFacebookGroupList")
+work_sheet = Connection().connect_worksheet("PythonFacebookGroupList")
 # Naro List
-work_sheet = Connection().connect_worksheet("NaroList")
+# work_sheet = Connection().connect_worksheet("NaroList")
 
 group_list = work_sheet.col_values(1)
 print(group_list)
@@ -33,8 +33,9 @@ def visit_link_list(driver, link_list):
 
         SearchKeyword().scrollAndSearchUsingXpath(driver)
         SearchKeyword().searchWordUsingXpath(driver)
+        SearchKeyword().searchCommentUsingXpath(driver)
 
-        print(input("Visit next group :"))
+        # print(input("Visit next group :"))
 
     print(f"\nWe visit {len(link_list)} link")
     return len(link_list)

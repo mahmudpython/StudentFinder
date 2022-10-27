@@ -7,10 +7,12 @@ from googlesheet.connection import Connection
 from login.login import Login
 
 
-message = "Today\'s Class start at 10 am. Join \'https://meet.google.com/amj-emzj-siy\' Come early if you need more " \
-          "help. "
+# message = "Today\'s Class start at 10 am. Join \'https://meet.google.com/amj-emzj-siy\' Come early if you need more " \
+#           "help. "
 
 # message = "I am available now you guides can join now. https://meet.google.com/amj-emzj-siy"
+
+message = "We held a free class tomorrow 10 a.m. https://meet.google.com/amj-emzj-siy  you are invited. "
 
 print(message)
 
@@ -26,7 +28,7 @@ Documentation :
 https://docs.gspread.org/en/v5.4.0/oauth2.html#oauth-client-id          
 """
 
-work_sheet = Connection().connect_worksheet("RunningClass")
+work_sheet = Connection().connect_worksheet("BanglaStudent")
 group_list = work_sheet.col_values(1)
 # print(group_list)
 
